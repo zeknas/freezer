@@ -1,0 +1,11 @@
+name: "broot"
+latest_version: 0.13.6
+releases_feed: "https://github.com/Canop/broot/releases.atom"
+url: "https://github.com/Canop/broot"
+versions:
+  "0.13.6":
+    linux:
+      symlinks:
+          "build/x86_64-linux/broot": "br"
+      binary_type: "zip"
+      url: "https://github.com/Canop/broot/releases/download/v0.13.6/broot_0.13.6.zip"
