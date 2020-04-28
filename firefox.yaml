@@ -1,0 +1,11 @@
+name: "firefox"
+latest_version: 75.0
+releases_feed: "https://hg.mozilla.org/releases/mozilla-release/rss-tags"
+url: "https://www.mozilla.org/en-US/firefox/new/"
+versions:
+  "75.0":
+    linux:
+      symlinks:
+          "firefox/firefox": "firefox"
+      binary_type: "tar"
+      url: "https://download-installer.cdn.mozilla.net/pub/firefox/releases/75.0/linux-x86_64/fr/firefox-75.0.tar.bz2"
