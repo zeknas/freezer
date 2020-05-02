@@ -1,0 +1,11 @@
+name: "atom"
+latest_version: 1.45.0
+releases_feed: "https://github.com/atom/atom/releases.atom"
+url: "https://github.com/atom/atom/"
+versions:
+  "1.45.0":
+    linux:
+      symlinks:
+          "atom-1.45.0-amd64/atom": "atom"
+      binary_type: "tar"
+      url: "https://github.com/atom/atom/releases/download/v1.45.0/atom-amd64.tar.gz"
